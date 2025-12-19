@@ -1,5 +1,5 @@
 // Netlify Function: 管理員密碼驗證
-const ADMIN_PASSWORD = '0958'; // 管理員密碼
+const ADMIN_PASSWORD = '8899'; // 管理員密碼
 
 exports.handler = async (event) => {
   if (event.httpMethod !== 'POST') {
